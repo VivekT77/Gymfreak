@@ -34,7 +34,8 @@ function signIn(e) {
         alert("Incorrect login credentials");
     }
     else{
-        location.href = "body.html";
+        location.href = "vivek.html";
     }
     e.preventDefault();
 }
+

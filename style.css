@@ -64,7 +64,7 @@ button{
     height: 40px;
     line-height: 40px;
         text-align: center;
-        background:  #e05b08;
+        background: rgb(2, 65, 2) ;
         border-radius: 120px;
         color: #fffafa;
         text-transform: uppercase;
@@ -103,7 +103,7 @@ p{
 .gym {
     justify-content: center;
     padding-left: 50px;
-    font-style:italic;
+    
 
     color: #e05b08;
     font-size: 20px;
@@ -115,5 +115,8 @@ p{
     font-size: 70px;
     color: #e05b08;
     padding: px 40px 0px 40px;
+}
+.gym2{
+    font-style: italic;
 }
 
