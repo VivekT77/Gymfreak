@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
   <style type="text/css">
     *{
         margin: 0;
@@ -101,12 +102,7 @@
             padding: 0rem 1.1rem;
             float: left;
         }
-        .logo a {
-           color:  #e05b08;
-            text-decoration: none;
-            padding-left: 20px;
-
-        }
+      
         li a {
             color: #fff;
             text-decoration: none;
@@ -191,23 +187,26 @@
 </style>
 </head>
 <body>
-  <div class="hero">
+  <div class="hero"  id="section1">
     <nav>
         <h2 class="logo">
-            <a href="#"><span style="color:rgb(246, 243, 239)"> Gym</span>FReaK </a>
+        <img src="newlogo.png" width="200px" > <!-- <a href="#"><span style="color:rgb(246, 243, 239)"> Gym</span>FReaK </a> -->
         </h2>
         <ul>
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Us </a></li>
+
+            <li><a href="#section2">About Us </a></li>
+          
             <li><a href="# ">Tools</a></li>
             <li><a href="calorie.html">calorie calculator</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         <div class="button">
-            <button>Sign Up</button>
-            <button>Log In</button>
+          <a href="index.html">  <button>Sign Up</button></a>
+          <a href="signin.html">  <button>Log In</button></a>
         </div>
       </nav>
+    </div>
       <div class="blank">
         <h1>Join The Fit Family</h1>
       </div>
@@ -221,15 +220,19 @@
        </div>
        <div class="list">
         <div class="products">
-        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2021/10/The-Best-Lower-Ab-Exercises.jpg">
+          <a href="abs.html">
+        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2021/10/The-Best-Lower-Ab-Exercises.jpg"></a>
         <h4 class="color"> Abs </h4>
         </div>
+       
         <div class="products">
-        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2022/02/The-Best-Chest-Exercises.jpg">
+          <a href="chest.html">
+        <img class="abs-img"  src="https://cdn.jackedgorilla.com/wp-content/uploads/2022/02/The-Best-Chest-Exercises.jpg"></a>
         <h4 class="color">Chest </h4>
         </div>
         <div class="products">
-        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2022/02/The-Best-Leg-Exercises.jpg">
+          <a href="legs.html">
+        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2022/02/The-Best-Leg-Exercises.jpg"></a>
         <h4 class="color">Legs </h4>
         </div> 
        </div>
@@ -243,7 +246,8 @@
         <h4 class="color"> Triceps</h4>
         </div>
         <div class="products">
-        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2022/02/The-Best-Shoulder-Exercises.jpg">
+          <a href="shoulder.html">
+        <img class="abs-img"src="https://cdn.jackedgorilla.com/wp-content/uploads/2022/02/The-Best-Shoulder-Exercises.jpg"></a>
         <h4 class="color">Shoulder</h4>
         </div> 
        </div>
@@ -263,6 +267,11 @@
         <div >    
     </div>
   </div>
+
+  <div class="main" id="section2">
+    about us
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 </body>
 </html>

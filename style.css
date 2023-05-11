@@ -7,11 +7,11 @@ main{
 }
 body{
   
-    background-image: url(img.jpeg);
+    background-image: url(../images/img.jpeg);
 
 }
 .hero-img {
-    background-image: url(img.jpeg);
+    background-image: url(../images/img.jpeg);
     
   
     background-position: center;
@@ -43,7 +43,7 @@ section{
 
 .form-group{
  
-    color: #fcfcfc;
+    color:#e05b08;
     text-transform: uppercase;
     letter-spacing: 2px;
     
@@ -64,7 +64,7 @@ button{
     height: 40px;
     line-height: 40px;
         text-align: center;
-        background: rgb(2, 65, 2) ;
+        background: #4c8eaf ;
         border-radius: 120px;
         color: #fffafa;
         text-transform: uppercase;
@@ -101,22 +101,35 @@ p{
     color:#a6f3e1;
 }
 .gym {
+    opacity:initial;
     justify-content: center;
     padding-left: 50px;
-    
+    margin: auto;
 
-    color: #e05b08;
+    color: #f4f4f3;
     font-size: 20px;
     writing-mode:horizontal-tb;
     line-height: 0.9;
         
 }
-.gym1{
+#u{
+    width: 50px;
+    height: 60px ;
+}
+/* .gym1{
     font-size: 70px;
     color: #e05b08;
     padding: px 40px 0px 40px;
-}
-.gym2{
+} */
+.gym2 {
     font-style: italic;
+    max-height: 300px;
+    max-width: 600px;
+    margin: 4px 0px 0px 0px;
+    padding: 5%;
 }
 
+.gym5{
+    color: #e05b08;
+    font-size: 60px;
+}
