@@ -33,7 +33,7 @@ function signIn(e) {
     if(!exist){
         alert("Incorrect login credentials");
     }
-    else{
+    else{   
         location.href = "home.html";
     }
     e.preventDefault();
