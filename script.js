@@ -40,4 +40,19 @@ function signIn(e) {
     }
     e.preventDefault();
 }
+const search = () => {
+    let filter = document.getElementById('find').value.toUpperCase(); // search bar
+    let item = document.querySelectorAll('.products'); // card 
+    let l = document.getElementsByTagName('h4'); //card heading
+    for (var i = 0; i <= l.length; i++) {
+        let a = item[i].getElementsByTagName('h4')[0];
+        let value = a.innerHTML || a.innerText || a.textContent;
+        if (value.toUpperCase().indexOf(filter) > -1) {
+            item[i].style.display = "";
+        }
+        else {
+            item[i].style.display = "none";
+        }
+    }
+}
 
